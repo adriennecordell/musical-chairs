@@ -18,7 +18,6 @@ Venues.init(
     seat_location: {
       type: DataTypes.INTEGER,
       allowNull: false,
-      autoIncrement: true,
     },
     cost: {
       type: DataTypes.INTEGER,
