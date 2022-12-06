@@ -15,7 +15,7 @@ Venues.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
-    seat_location: {
+    num_seats: {
       type: DataTypes.INTEGER,
       allowNull: false,
     },
