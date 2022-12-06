@@ -53,5 +53,5 @@ Event.init(
     modelName: "events",
   }
 );
-module.exports = Comment;
+module.exports = Event;
 //////
