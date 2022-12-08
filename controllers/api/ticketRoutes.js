@@ -8,7 +8,7 @@ router.get('/tickets', async (req, res) => {
         if (!ticketData) {
             res
               .status(400)
-              .json({ message: 'Nothing matches your search '});
+              .json({ message: 'Nothing matches your search'});
             return;
         }
     } catch (err) {
