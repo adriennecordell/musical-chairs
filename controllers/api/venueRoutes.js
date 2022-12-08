@@ -3,6 +3,8 @@ const { Venues } = require("../../models");
 
 router.get("/", async (req, res) => {
   try {
+    const venues = await Venues.findAll();
+    res.json(venues);
   } catch {}
 });
 
