@@ -4,6 +4,7 @@ const session = require('express-session');
 const exphbs = require('express-handlebars');
 const routes = require('./controllers');
 const helpers = require('./utils/helpers');
+const {engine}=require('express-handlebars')//required for handlebars-destructure enginre out of express
 
 const sequelize = require('./config/connection');
 const SequelizeStore = require('connect-session-sequelize')(session.Store);
@@ -24,9 +25,23 @@ const sess = {
 };
 
 app.use(session(sess));
+app.use(require('/controllers/eventRoutes'))// handlebars requirement
+app.use(require('/controllers/index.js'))// handlebars requirement
+app.use(require('/controllers/ticketRoutes'))// handlebars requirement
+app.use(require('/controllers/userRoutes'))// handlebars requirement
+app.use(require('/controllers/venueRoutes'))// handlebars requirement
 
-app.engine('handlebars', hbs.engine);
-app.set('view engine', 'handlebars');
+
+
+// app.engine('handlebars', hbs.engine);   //handlebars came premade
+// app.set('view engine', 'handlebars');   //handlebars came premade
+app.engine('handlebars', engine());   //required for handlebars
+app.set('view engine', 'handlebars')   //required for handlebars
+app.set('views','./views')//required for handlebars- views folder where all the views live
+
+app.get('/', (req,res)=>{
+  res.render('home')
+})
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
