@@ -19,10 +19,6 @@ Venues.init(
       type: DataTypes.INTEGER,
       allowNull: false,
     },
-    cost: {
-      type: DataTypes.INTEGER,
-      allowNull: false,
-    },
   },
   {
     sequelize,
