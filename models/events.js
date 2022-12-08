@@ -38,7 +38,6 @@ Event.init(
       type: DataTypes.INTEGER,
       allowNull: false,
       primaryKey: true,
-      autoIncrement: true,
     },
     cost: {
       type: DataTypes.INTEGER,
