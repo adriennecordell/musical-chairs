@@ -15,34 +15,22 @@ Event.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
-    user_id: {
-      type: DataTypes.INTEGER,
-      references: {
-        model: "events",
-        key: "id",
-      },
-    },
-    act_id: {
-      type: DataTypes.INTEGER,
-      references: {
-        model: "events",
-        key: "id",
-      },
-    },
-    event_time: {
-      type: DataTypes.INTEGER,
+    time: {
+      type: DataTypes.DATE,
+      defaultValue: Date.now,
       allowNull: false,
-      primaryKey: true,
     },
     venue_id: {
       type: DataTypes.INTEGER,
       allowNull: false,
-      primaryKey: true,
+      references: {
+        model: "Venues",
+        key: "id",
+      },
     },
     cost: {
       type: DataTypes.INTEGER,
       allowNull: false,
-      primaryKey: true,
     },
   },
   {

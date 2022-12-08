@@ -1,23 +1,28 @@
 [
     {
       "name": "Stage Revolution",
-      "cost": 35
+      "cost": 35,
+      "venue_id": 1
     },
     {
         "name": "Armie and The Hammers",
-        "cost": 20
+        "cost": 20,
+        "venue_id": 1
     },
     {
         "name": "Sucker Punch",
-        "cost": 35
+        "cost": 35,
+        "venue_id": 1
     },
     {
         "name": "Afternoon Daydream",
-        "cost": 40
+        "cost": 40,
+        "venue_id": 1
     },
     {
         "name": "Double Helix",
-        "cost": 25
+        "cost": 25,
+        "venue_id": 1
     }
   ]
   
