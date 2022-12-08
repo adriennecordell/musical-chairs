@@ -18,5 +18,25 @@
   {
     "location": "SoFi Stadium",
     "num_seats": 5
+  },
+  {
+    "location": "Croke Park",
+    "num_seats": 60
+  },
+  {
+    "location": "Eden Gardens",
+    "num_seats": 80
+  },
+  {
+    "location": "Caesars Superdome",
+    "num_seats": 50
+  },
+  {
+    "location": "Alamodome",
+    "num_seats": 34
+  },
+  {
+    "location": "Volksparkstadion",
+    "num_seats": 25
   }
 ]
