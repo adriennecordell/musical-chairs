@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Aerosmith",
+        "venue_id": 1,
+        "content": "Bacon ipsum dolor amet corned beef meatloaf doner kevin, capicola bacon chicken. Ham doner ball tip pork chop",
+        "cost": 25
+    },
+    {
+        "name": "Happy Mondays",
+         "venue_id": 1,
+         "content": "Bacon ipsum dolor amet corned beef meatloaf doner kevin, capicola bacon chicken. Ham doner ball tip pork chop",
+        "cost": 67
+    },
+    {
+        "name": "Beetles",
+         "venue_id": 1,
+         "content": "Bacon ipsum dolor amet corned beef meatloaf doner kevin, capicola bacon chicken. Ham doner ball tip pork chop",
+        "cost": 20
+    },
+    {
+        "name": "Jackson 5",
+        "venue_id": 1,
+        "content": "Bacon ipsum dolor amet corned beef meatloaf doner kevin, capicola bacon chicken. Ham doner ball tip pork chop",
+        "cost": 40
+    },
+    {
+        "name": "Big K.R.I.T",
+         "venue_id": 1,
+         "content": "Bacon ipsum dolor amet corned beef meatloaf doner kevin, capicola bacon chicken. Ham doner ball tip pork chop",
+        "cost": 800
+    },
+    {
+        "name": "Post Malone",
+         "venue_id": 1,
+         "content": "Bacon ipsum dolor amet corned beef meatloaf doner kevin, capicola bacon chicken. Ham doner ball tip pork chop",
+        "cost": 325
+    },
+    {
+        "name": "Nav",
+         "venue_id": 1,
+         "content": "Bacon ipsum dolor amet corned beef meatloaf doner kevin, capicola bacon chicken. Ham doner ball tip pork chop",
+        "cost": 210
+    },
+    {
+        "name": "Marshmellow",
+         "venue_id": 1,
+         "content": "Bacon ipsum dolor amet corned beef meatloaf doner kevin, capicola bacon chicken. Ham doner ball tip pork chop",
+        "cost": 460
+    },
+    {
+        "name": "Black Bear",
+         "venue_id": 1,
+         "content": "Bacon ipsum dolor amet corned beef meatloaf doner kevin, capicola bacon chicken. Ham doner ball tip pork chop",
+        "cost": 78
+    },
+    {
+        "name": "OliverTree",
+         "venue_id": 1,
+         "content": "Bacon ipsum dolor amet corned beef meatloaf doner kevin, capicola bacon chicken. Ham doner ball tip pork chop",
+        "cost": 150
+    }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "location": "RedRock",
+    "num_seats": 30
+  },
+  {
+    "location": "Camp Nou",
+    "num_seats": 20
+  },
+  {
+    "location": "Old Trafford",
+    "num_seats": 50
+  },
+  {
+    "location": "Olympiastadion",
+    "num_seats": 10
+  },
+  {
+    "location": "SoFi Stadium",
+    "num_seats": 5
+  },
+  {
+    "location": "Croke Park",
+    "num_seats": 60
+  },
+  {
+    "location": "Eden Gardens",
+    "num_seats": 80
+  },
+  {
+    "location": "Caesars Superdome",
+    "num_seats": 50
+  },
+  {
+    "location": "Alamodome",
+    "num_seats": 34
+  },
+  {
+    "location": "Volksparkstadion",
+    "num_seats": 25
+  }
+]
