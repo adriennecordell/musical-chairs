@@ -25,6 +25,10 @@ const sess = {
 
 app.use(session(sess));
 
+
+
+
+
 // app.engine('handlebars', hbs.engine);   //handlebars came premade
 // app.set('view engine', 'handlebars');   //handlebars came premade
 app.engine('handlebars', hbs.engine);   //required for handlebars
