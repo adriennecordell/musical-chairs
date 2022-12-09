@@ -8,6 +8,15 @@ router.get("/", async (req, res) => {
   } catch {}
 });
 
+// router.get("/sold_tickets/:id", async (req,res) => {
+//   try{
+// const ticketData = await Venues.findByPk(req.params.id)
+//   } catch (err) {
+//     res.status(400).json(err);
+//   }
+// })
+
+
 router.put("/sold_tickets/:id", async (req, res) => {
   try {
     //get current amount of seats form venue
