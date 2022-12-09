@@ -28,6 +28,14 @@ Event.init(
         key: "id",
       },
     },
+    num_seats: {
+      type: DataTypes.INTEGER,
+      allowNull: false,
+      references: {
+        model: "Venues",
+        key: "id"
+      }
+    },
     cost: {
       type: DataTypes.INTEGER,
       allowNull: false,
