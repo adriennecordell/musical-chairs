@@ -27,22 +27,7 @@ const sess = {
 app.use(session(sess));
 
 
-app.get('/', (req,res)=>{
-  res.sendFile(__dirname +'/views/index.handlebars')
-})
 
-
-app.get('/auditorium', (req,res)=>{
-  res.sendFile(__dirname +'/views/auditorium.handlebars')
-})
-
-app.get('/basement', (req,res)=>{
-  res.sendFile(__dirname +'/views/basement.handlebars')
-})
-
-app.get('/yurt', (req,res)=>{
-  res.sendFile(__dirname +'/views/yurt.handlebars')
-})
 
 
 // app.engine('handlebars', hbs.engine);   //handlebars came premade
