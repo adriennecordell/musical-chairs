@@ -5,7 +5,6 @@ const exphbs = require('express-handlebars');
 const routes = require('./controllers');
 const helpers = require('./utils/helpers');
 
-
 const sequelize = require('./config/connection');
 const SequelizeStore = require('connect-session-sequelize')(session.Store);
 
@@ -26,32 +25,11 @@ const sess = {
 
 app.use(session(sess));
 
-
-app.get('/', (req,res)=>{
-  res.sendFile(__dirname +'/views/index.handlebars')
-})
-
-
-app.get('/auditorium', (req,res)=>{
-  res.sendFile(__dirname +'/views/auditorium.handlebars')
-})
-
-app.get('/basement', (req,res)=>{
-  res.sendFile(__dirname +'/views/basement.handlebars')
-})
-
-app.get('/yurt', (req,res)=>{
-  res.sendFile(__dirname +'/views/yurt.handlebars')
-})
-
-
 // app.engine('handlebars', hbs.engine);   //handlebars came premade
 // app.set('view engine', 'handlebars');   //handlebars came premade
 app.engine('handlebars', hbs.engine);   //required for handlebars
 app.set('view engine', 'handlebars')   //required for handlebars
 app.set('views','./views')//required for handlebars- views folder where all the views live
-
-
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
