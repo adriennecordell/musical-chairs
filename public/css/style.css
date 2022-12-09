@@ -1,0 +1,45 @@
+:root {
+  --mc-font-header: bely-display, sans-serif;
+  --mc-font-body: karmina, serif;
+  --mc-primary: #020126;
+  --mc-secondary: #2703a6;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  font-family: var(--mc-font-body);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: var(--mc-font-header);
+}
+
+/* ===== Text Color ===== */
+
+.mc-text-primary {
+  color: var(--mc-primary);
+}
+
+.mc-text-secondary {
+  color: var(--mc-secondary);
+}
+
+/* ===== Background Color ===== */
+
+.mc-bg-primary {
+  background: var(--mc-primary);
+}
+
+.mc-bg-secondary {
+  background: #2703a6;
+}
