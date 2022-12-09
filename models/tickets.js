@@ -35,6 +35,14 @@ Tickets.init(
         key: "id",
       },
     },
+    num_seats: {
+      type: DataTypes.INTEGER,
+      allowNull: false,
+      refrences: {
+        model: 'venues',
+        key: "num_seats",
+      }
+    }
   },
   {
     sequelize,
