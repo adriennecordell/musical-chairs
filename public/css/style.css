@@ -43,3 +43,37 @@ h5 {
 .mc-bg-secondary {
   background: #2703a6;
 }
+
+/* ===== Button Color ===== */
+
+.btn {
+  border: 3px solid var(--mc-primary);
+  padding: 5px 15px;
+  border-radius: 3px;
+  font-weight: bold;
+  font-size: 15px;
+  color: white !important;
+  font-family: var(--mc-font-header);
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+.mc-btn-primary:hover {
+  color: var(--mc-secondary) !important;
+}
+
+.mc-btn-primary {
+  color: var(--mc-secondary) !important;
+  background: var(--mc-primary);
+}
+
+.mc-btn-secondary {
+  border: 3px solid var(--mc-primary);
+  background: var(--mc-primary) !important;
+  color: white !important;
+}
+
+.mc-btn-secondary:hover {
+  background: white !important;
+  color: var(--mc-primary) !important;
+  border: 3px solid white;
+}
