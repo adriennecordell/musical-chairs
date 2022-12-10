@@ -13,7 +13,7 @@ body {
 
 a {
   text-decoration: none;
-  color: black;
+  color: black !important;
 }
 
 h1,
@@ -76,4 +76,24 @@ h5 {
   background: white !important;
   color: var(--mc-primary) !important;
   border: 3px solid white;
+}
+
+/* ===== Custom Code ===== */
+.z-front {
+  z-index: 99;
+}
+.z-back {
+  z-index: -1;
+}
+
+.object-fit {
+  height: 300px;
+  object-fit: contain;
+  width: 100%;
+}
+
+.object-cover {
+  height: 300px;
+  object-fit: cover;
+  width: 100%;
 }

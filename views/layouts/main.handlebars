@@ -18,16 +18,27 @@
 
 <body>
   <header>
-    <h1 class="text-center pt-3">
-      Musical Chairs Login 
-    </h1>
     {{#if logged_in}}
-    <nav>
-      <button class="btn" id="logout">logout</button>
+    <nav class="navbar navbar-expand-lg mc-bg-secondary text-white">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Musical Chairs</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#">Features</a>
+            <a class="nav-link" href="#">Pricing</a>
+            <button class="btn" id="logout">logout</button>
+          </div>
+        </div>
+      </div>
     </nav>
     {{/if}}
   </header>
-  <main class="container">
+  <main>
 
     {{{ body }}}
 
