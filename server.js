@@ -5,7 +5,6 @@ const exphbs = require('express-handlebars');
 const routes = require('./controllers');
 const helpers = require('./utils/helpers');
 
-
 const sequelize = require('./config/connection');
 const SequelizeStore = require('connect-session-sequelize')(session.Store);
 
@@ -35,8 +34,6 @@ app.use(session(sess));
 app.engine('handlebars', hbs.engine);   //required for handlebars
 app.set('view engine', 'handlebars')   //required for handlebars
 app.set('views','./views')//required for handlebars- views folder where all the views live
-
-
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
