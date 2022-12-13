@@ -15,10 +15,6 @@ Tickets.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
-    cost: {
-      type: DataTypes.INTEGER,
-      allowNull: false,
-    },
     venue_id: {
       type: DataTypes.INTEGER,
       allowNull: false,
