@@ -1,18 +1,18 @@
 [
   {
-    "location": "RedRock",
+    "location": "Yurt",
     "num_seats": 30
   },
   {
-    "location": "Camp Nou",
+    "location": "Basement",
     "num_seats": 20
   },
   {
-    "location": "Old Trafford",
+    "location": "Big Basement",
     "num_seats": 50
   },
   {
-    "location": "Olympiastadion",
+    "location": "Auditorium",
     "num_seats": 10
   },
   {
@@ -36,7 +36,7 @@
     "num_seats": 34
   },
   {
-    "location": "Volksparkstadion",
+    "location": "Volkspark Stadium",
     "num_seats": 25
   }
 ]
