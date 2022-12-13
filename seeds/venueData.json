@@ -1,42 +1,30 @@
 [
   {
     "location": "Yurt",
+    "name": "Yurt",
+    "description": "THE YURT is a year round intimate concert in the round venue.",
+    "image": "yurt.jpg",
     "num_seats": 30
   },
   {
     "location": "Basement",
+    "name": "Basement",
+    "description": "THE BASEMENT is a year round intimate concert in the round venue.",
+    "image": "basement.jpg",
     "num_seats": 20
   },
   {
     "location": "Big Basement",
+    "name": "Big Basement",
+    "description": "THE BIG BASEMENT is a general admission all standing concert venue in the biggest basement any of our parents had",
+    "image": "bigbasement.jpg",
     "num_seats": 50
   },
   {
     "location": "Auditorium",
+    "name": "Auditorium",
+    "description": "THE AUDITORIUM is a year round intimate concert in the round venue.",
+    "image": "auditorium.jpg",
     "num_seats": 10
-  },
-  {
-    "location": "SoFi Stadium",
-    "num_seats": 5
-  },
-  {
-    "location": "Croke Park",
-    "num_seats": 60
-  },
-  {
-    "location": "Eden Gardens",
-    "num_seats": 80
-  },
-  {
-    "location": "Caesars Superdome",
-    "num_seats": 50
-  },
-  {
-    "location": "Alamodome",
-    "num_seats": 34
-  },
-  {
-    "location": "Volkspark Stadium",
-    "num_seats": 25
   }
 ]
