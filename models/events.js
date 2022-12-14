@@ -11,6 +11,14 @@ Event.init(
       primaryKey: true,
       autoIncrement: true,
     },
+    name: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
+    image: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
     content: {
       type: DataTypes.STRING,
       allowNull: false,
@@ -32,7 +40,6 @@ Event.init(
       type: DataTypes.INTEGER,
       allowNull: false,
     },
-    
   },
   {
     sequelize,

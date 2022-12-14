@@ -15,10 +15,6 @@ Tickets.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
-    cost: {
-      type: DataTypes.INTEGER,
-      allowNull: false,
-    },
     venue_id: {
       type: DataTypes.INTEGER,
       allowNull: false,
@@ -35,14 +31,14 @@ Tickets.init(
         key: "id",
       },
     },
-    num_seats: {
-      type: DataTypes.INTEGER,
-      allowNull: false,
-      refrences: {
-        model: 'venues',
-        key: "num_seats",
-      }
-    }
+    // num_seats: {
+    //   type: DataTypes.INTEGER,
+    //   allowNull: false,
+    //   refrences: {
+    //     model: 'venues',
+    //     key: "num_seats",
+    //   }
+    // }
   },
   {
     sequelize,
