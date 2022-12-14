@@ -38,8 +38,29 @@ router.get('/yurt',async(req,res)=>{//handlebars
 router.get('/auditorium',async (req,res)=>{//handlebars
   res.render('auditorium')//handlebars-render the auditorium view content inside the main layout and send it to browser
 })
+  router.get('/bigBasement',async (req,res)=>{//handlebars
+    res.render('bigBasement')//handlebars-render the auditorium view content inside the main layout and send it to browser
+})
 router.get('/basement',async (req,res)=>{//handlebars
   res.render('basement')//handlebars-render the basement view content inside the main layout and send it to browser
+})
+router.get('/sofi',async (req,res)=>{//handlebars
+  res.render('sofi')//handlebars-render the basement view content inside the main layout and send it to browser
+})
+router.get('/croke',async (req,res)=>{//handlebars
+  res.render('croke')//handlebars-render the basement view content inside the main layout and send it to browser
+})
+router.get('/eden',async (req,res)=>{//handlebars
+  res.render('eden')//handlebars-render the basement view content inside the main layout and send it to browser
+})
+router.get('/caesars',async (req,res)=>{//handlebars
+  res.render('caesars')//handlebars-render the basement view content inside the main layout and send it to browser
+})
+router.get('/alamo',async (req,res)=>{//handlebars
+  res.render('alamo')//handlebars-render the basement view content inside the main layout and send it to browser
+})
+router.get('/volkspark',async (req,res)=>{//handlebars
+  res.render('volkspark')//handlebars-render the basement view content inside the main layout and send it to browser
 })
 
 
