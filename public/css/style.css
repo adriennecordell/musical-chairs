@@ -66,6 +66,15 @@ h5 {
   background: var(--mc-primary);
 }
 
+.mc-btn-white:hover {
+  color: var(--mc-secondary) !important;
+}
+
+.mc-btn-white {
+  color: var(--mc-secondary) !important;
+  background: white;
+}
+
 .mc-btn-secondary {
   border: 3px solid var(--mc-primary);
   background: var(--mc-primary) !important;
@@ -96,4 +105,8 @@ h5 {
   height: 300px;
   object-fit: cover;
   width: 100%;
+}
+
+.fs-12 {
+  font-size: 12px;
 }

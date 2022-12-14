@@ -1,30 +1,72 @@
 [
   {
-    "location": "Yurt",
+    "location": "Grand Canyon",
     "name": "Yurt",
     "description": "THE YURT is a year round intimate concert in the round venue.",
     "image": "yurt.jpg",
     "num_seats": 30
   },
   {
-    "location": "Basement",
+    "location": "Your Moms House",
     "name": "Basement",
     "description": "THE BASEMENT is a year round intimate concert in the round venue.",
     "image": "basement.jpg",
     "num_seats": 20
   },
   {
-    "location": "Big Basement",
+    "location": "Frat House",
     "name": "Big Basement",
     "description": "THE BIG BASEMENT is a general admission all standing concert venue in the biggest basement any of our parents had",
     "image": "bigbasement.jpg",
     "num_seats": 50
   },
   {
-    "location": "Auditorium",
+    "location": "Red Rock",
     "name": "Auditorium",
     "description": "THE AUDITORIUM is a year round intimate concert in the round venue.",
     "image": "auditorium.jpg",
     "num_seats": 10
+  },
+  {
+    "location": "Smoothie King Center",
+    "name": "Stadium",
+    "description": "THE STADIUM is a year round intimate concert in the round venue.",
+    "image": "stadium.jpg",
+    "num_seats": 135
+  },
+  {
+    "location": "Cross Bar Arena",
+    "name": "Arena",
+    "description": "THE ARENA is a year round intimate concert in the round venue.",
+    "image": "arena.jpg",
+    "num_seats": 58
+  },
+  {
+    "location": "Nightingale Theater",
+    "name": "Theater",
+    "description": "THE THEATER is a year round intimate concert in the round venue.",
+    "image": "theater.jpg",
+    "num_seats": 123
+  },
+  {
+    "location": "TCC PACE",
+    "name": "School Theater",
+    "description": "THE SCHOOL THEATER is a year round intimate concert in the round venue.",
+    "image": "school.jpg",
+    "num_seats": 600
+  },
+  {
+    "location": "Turquoise TeePee",
+    "name": "TeePee",
+    "description": "THE TEEPEE is a year small round concert in the teepee venue.",
+    "image": "teepee.jpg",
+    "num_seats": 5
+  },
+  {
+    "location": "Moms Backyard",
+    "name": "Backyard",
+    "description": "THE BACKYARD is a year round intimate concert in the round venue.",
+    "image": "backyard.jpg",
+    "num_seats": 26
   }
 ]
