@@ -2,60 +2,70 @@
     {
         "name": "Aerosmith",
         "venue_id": 1,
+        "image": "Aerosmith__I_Dont_Want_to_Miss_a_Thing_Official_HD_Video.gif",
         "content": "Bacon ipsum dolor amet corned beef meatloaf doner kevin, capicola bacon chicken. Ham doner ball tip pork chop",
         "cost": 25
     },
     {
         "name": "Happy Mondays",
-         "venue_id": 1,
+         "venue_id": 2,
+         "image": "Happy_Mondays__Step_On_Official_Music_Video.gif",
          "content": "Bacon ipsum dolor amet corned beef meatloaf doner kevin, capicola bacon chicken. Ham doner ball tip pork chop",
         "cost": 67
     },
     {
         "name": "Beetles",
-         "venue_id": 1,
+         "venue_id": 3,
+         "image": "The_Beatles__Dont_Let_Me_Down.gif",
          "content": "Bacon ipsum dolor amet corned beef meatloaf doner kevin, capicola bacon chicken. Ham doner ball tip pork chop",
         "cost": 20
     },
     {
         "name": "Jackson 5",
-        "venue_id": 1,
+        "venue_id": 4,
+        "image": "The_Jacksons__Blame_It_On_the_Boogie_Official_Video.gif",
         "content": "Bacon ipsum dolor amet corned beef meatloaf doner kevin, capicola bacon chicken. Ham doner ball tip pork chop",
         "cost": 40
     },
     {
         "name": "Big K.R.I.T",
          "venue_id": 1,
+         "image": "Big_KRIT__Money_On_The_Floor_Explicit_Official_Music_Video.gif",
          "content": "Bacon ipsum dolor amet corned beef meatloaf doner kevin, capicola bacon chicken. Ham doner ball tip pork chop",
         "cost": 800
     },
     {
         "name": "Post Malone",
-         "venue_id": 1,
+         "venue_id": 2,
+         "image": "Post_Malone_ft_21_Savage__rockstar_Official_Music_Video.gif",
          "content": "Bacon ipsum dolor amet corned beef meatloaf doner kevin, capicola bacon chicken. Ham doner ball tip pork chop",
         "cost": 325
     },
     {
         "name": "Nav",
-         "venue_id": 1,
+         "venue_id": 3,
+         "image": "NAV_Travis_Scott__Never_Sleep_ft_Lil_Baby.gif",
          "content": "Bacon ipsum dolor amet corned beef meatloaf doner kevin, capicola bacon chicken. Ham doner ball tip pork chop",
         "cost": 210
     },
     {
         "name": "Marshmellow",
-         "venue_id": 1,
+         "venue_id": 4,
+         "image": "Marshmello_and_AnneMarie__FRIENDS_Music_Video_OFFICIAL_FRI.gif",
          "content": "Bacon ipsum dolor amet corned beef meatloaf doner kevin, capicola bacon chicken. Ham doner ball tip pork chop",
         "cost": 460
     },
     {
         "name": "Black Bear",
          "venue_id": 1,
+         "image": "blackbear__hazel_inside_Official_Video.gif",
          "content": "Bacon ipsum dolor amet corned beef meatloaf doner kevin, capicola bacon chicken. Ham doner ball tip pork chop",
         "cost": 78
     },
     {
         "name": "OliverTree",
-         "venue_id": 1,
+         "venue_id": 2,
+         "image": "Oliver_Tree_and_Robin_Schulz__Miss_You_Official_Music_Video.gif",
          "content": "Bacon ipsum dolor amet corned beef meatloaf doner kevin, capicola bacon chicken. Ham doner ball tip pork chop",
         "cost": 150
     }
