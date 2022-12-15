@@ -26,14 +26,11 @@ If your README is long, add a table of contents to make it easy for users to fin
 
 ## Installation
 
-npm install
-To use this application, users must npm install Inquirer and console.table as well as install MySQL.
+To use this application users must npm install <a href="https://www.npmjs.com/package/dotenv">dotenv</a>, <a href="https://www.npmjs.com/package/express">express</a>, <a href="https://www.npmjs.com/package/mysql2">mysql2</a>, and <a href="https://www.npmjs.com/package/chalk">chalk</a>.
 
 What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
 
 ## Usage
-To use the API you will run 
-href="https://www.npmjs.com/package/dotenv">dotenv</a>, <a href="https://www.npmjs.com/package/express">express</a>, <a href="https://www.npmjs.com/package/mysql2">mysql2</a>, and <a href="https://www.npmjs.com/package/chalk">chalk</a>.
 
 
 Provide instructions and examples for use. Include screenshots as needed.
