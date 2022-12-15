@@ -2,10 +2,13 @@
 
 ## Description
 
+Our team produced an database for Users to reserve tickets from venues to watch musical artist perform. This API requires the Users to create a profile Login that enables the server to gernerate the venues and seats avaiable. Our API will utilize the CRUD operation method consistently sending request from the client to the server responsing by updates, posts, get's, put's and deletes. 
+
+
 Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
+- What was your motivation? done
+- Why did you build this project? done
 - What problem does it solve?
 - What did you learn?
 
@@ -13,16 +16,22 @@ Provide a short description explaining the what, why, and how of your project. U
 
 If your README is long, add a table of contents to make it easy for users to find what they need.
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
+- [Installation] npm install
+
+- [Usage] npm run start
+- [Credits](#)
+- [License] This project is MIT licensed. 
 
 ## Installation
+
+npm install
+To use this application, users must npm install Inquirer and console.table as well as install MySQL.
 
 What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
 
 ## Usage
+npm run start 
+localhost 300
 
 Provide instructions and examples for use. Include screenshots as needed.
 
@@ -33,6 +42,8 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
     ```
 
 ## Credits
+
+
 
 List your collaborators, if any, with links to their GitHub profiles.
 
