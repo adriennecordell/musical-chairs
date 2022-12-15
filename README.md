@@ -9,11 +9,11 @@ Our team produced a database for Users to reserve tickets from venues to watch m
 
 To use this application users must npm install <a href="https://www.npmjs.com/package/dotenv">dotenv</a>, <a href="https://www.npmjs.com/package/express">express</a>, 
 <a href="https://www.npmjs.com/package/mysql2">mysql2</a>,
-<a href="https://www.npmjs.com/package/express-session">Epress Session</a, 
+<a href="https://www.npmjs.com/package/express-session">Express Session</a>, 
 <a href="https://sequelize.org/docs/v6/getting-started/">Sequelize</a>,
 <a href="https://www.npmjs.com/package/connect-session-sequelize">Connect Session Sequelize</a>,
 <a href="https://www.npmjs.com/package/express-handlebars">Express Handlebars</a>,
-<a href="https://gifrun.com/youtube/?v=BX0lKSa_PTk">GIFrun</a>
+
  
 
 
