@@ -6,6 +6,37 @@
         </p>
         <p>{{format_date time}}</p>
         <p>${{cost}}</p>  
-        <a href="#" class="btn mc-btn-secondary">Reserve Seats</a> 
+         <select class="form-select" id="ticketSelect" aria-label="Default select example">
+
+
+            <option selected>Open this select menu</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+            <option value="4">Four</option>
+            <option value="5">Five</option>
+        </select>
+        <p class="fw-bold"> TOTAL SEATS AVAILABLE</p>
+        <div id="counter">
+
+           {{num_seats}} 
+            
+        </div>
+        <script>
+            const formSelect= document.querySelector("#ticketSelect")
+            const venueTickets=document.getElementById('counter').innerText
+            formSelect.addEventListener('change', (event)=>{
+               console.log(event.target.value) 
+
+            const counter=document.querySelector('#counter')
+
+            counter.innerText=venueTickets-event.target.value
+            })
+            
+            {{!-- const value=formSelect.value
+            const text=formSelect.option[formSelect.selectedIndex].text
+            console.log(value, text) --}}
+
+        </script>
     </div>
 </div>

@@ -36,6 +36,10 @@ Event.init(
         key: "id",
       },
     },
+    num_seats: {
+      type: DataTypes.INTEGER,
+      allowNull: false,
+    },
     cost: {
       type: DataTypes.INTEGER,
       allowNull: false,
@@ -49,4 +53,4 @@ Event.init(
   }
 );
 module.exports = Event;
-//////
+
