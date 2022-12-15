@@ -1,29 +1,30 @@
-let newUser = [];
-
-const signUp = async (event) => {
+const signupForm = document.querySelector(".signup-form")
+console.log(signupForm)
+const signUp = (event) => {
   event.preventDefault();
-
+  
+  const name = document.querySelector("#name-login").value.trim()
   const email = document.querySelector("#email-login").value.trim();
-
+  
   const password = document.querySelector("#password-login").value.trim();
-
+  
   if (email && password) {
-    const response = await fetch("/api/users/signup", {
+    let newUser = { name, email, password };
+    console.log(newUser)
+    fetch("/api/users/signup", {
       method: "POST",
-      body: JSON.stringify({ email, password }),
+      body: JSON.stringify(newUser),
       headers: { "Content-Type": "application/json" },
-    })
-    .then(({ email, password }) => {
-      let user = new User(email, password);
-      newUser.push(user);
-    });
+    }).then((response) => {
+      if (response.ok) {
+        document.location.replace("/");
+      } else {
+        alert("Failed to sign up");
+      }
 
-    if (response.ok) {
-      document.location.replace("/");
-    } else {
-      alert("Failed to sign up");
-    }
+    }).catch(err => alert(err))
   }
 };
 
-document.querySelector(".login-form").addEventListener("submit", signUp);
+
+signupForm.addEventListener("submit", signUp);

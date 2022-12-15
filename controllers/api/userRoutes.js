@@ -37,18 +37,12 @@ router.post('/login', async (req, res) => {
 
 router.post('/signup', async (req, res) => {
   try {
-    const userData = await User.create({ where: { email: req.body.email}, password: req.body.password});
-
-    if (!userData) {
-      res
-        .status(400)
-        .json({ message: 'You must enter an email and password to sign up.' });
-      return;
+    if (!req.body.email || !req.body.password) {
+      return res.status(400).json({ message: 'You must enter an email and password to sign up.' })
     }
-
-  if (req.body.email && req.body.password)
-
-  req.session.save(() => {
+    const userData = await User.create(req.body);
+    console.log(userData)
+    req.session.save(() => {
       req.session.user_id = userData.id;
       req.session.logged_in = true;
       
@@ -56,7 +50,7 @@ router.post('/signup', async (req, res) => {
     });
 
   } catch (err) {
-    res.status(400).json(err);
+    res.status(500).json(err);
   }
 })
 
