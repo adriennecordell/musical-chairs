@@ -14,7 +14,7 @@
         "cost": 67
     },
     {
-        "name": "Beetles",
+        "name": "The Beetles",
          "venue_id": 3,
          "image": "The_Beatles__Dont_Let_Me_Down.gif",
          "content": "The Beatles were an English rock band, formed in Liverpool in 1960, that comprised John Lennon, Paul McCartney, George Harrison and Ringo Starr.",
@@ -63,7 +63,7 @@
         "cost": 78
     },
     {
-        "name": "OliverTree",
+        "name": "Oliver Tree",
          "venue_id": 10,
          "image": "Oliver_Tree_and_Robin_Schulz__Miss_You_Official_Music_Video.gif",
          "content": "Oliver Nickell (born June 29, 1993) is an American singer, record producer, and comedian. Born in Santa Cruz, California, Tree signed to Atlantic Records in 2017 after his song 'When I'm Down' went viral and released his debut studio album Ugly Is Beautiful in 2020.",
