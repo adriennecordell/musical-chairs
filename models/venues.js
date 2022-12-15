@@ -27,10 +27,7 @@ Venues.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
-    num_seats: {
-      type: DataTypes.INTEGER,
-      allowNull: false,
-    },
+   
   },
   {
     sequelize,

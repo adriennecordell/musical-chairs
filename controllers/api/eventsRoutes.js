@@ -11,33 +11,29 @@ router.get("/", async (req, res) => {
     }
 })
 
+router.put("/sold_tickets/:id", async (req, res) => {
+    try {
+      //get current amount of seats form event
+      const event = await Events.findByPk(req.params.id);
+  
+      //num_seat - req.body
+      const totalSeats = event.num_seats - req.body.num_tickets;
+  
+      const updateevent = await Events.update(
+        { num_seats: totalSeats },
+        {
+          where: {
+            id: req.params.id,
+          },
+        }
+      );
+      res.status(200).json(updateevent);
+    } catch (err) {
+      res.status(400).json(err);
+    }
+  });
 
 
-// router.put("/upcoming_shows/:id", 
-// async (req, res) => {
-//     try {
-//     // get event from venue
-
-//     const events = await Events.findByPk(req.params.venue_id)
-
-//     // logic for if sold out?
-//     const soldOut = events.num_seats < 1 ? 0 : events.num_seats 
-
-//     const updateVenue = await Events.update(
-//         { num_seats: soldOut },
-//         {
-//           where: {
-//             id: req.params.id,
-//           },
-//         }
-//       ); 
-//       console.log(updateVenue)
-
-//     res.status(200).json(soldOut)
-//     } catch (err) {
-//         response.status(400).json(err)
-//     }
-// })
 
 
 
