@@ -11,7 +11,7 @@
     "cost": 67
 },
 {
-    "name": "Beetles",
+    "name": "The Beetles",
      "venue_id": 1,
     "cost": 20
 },
@@ -46,7 +46,7 @@
     "cost": 78
 },
 {
-    "name": "OliverTree",
+    "name": "Oliver Tree",
      "venue_id": 1,
     "cost": 150
 }
