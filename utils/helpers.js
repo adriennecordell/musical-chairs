@@ -1,14 +1,6 @@
 module.exports = {
-  get_emoji: () => {
-    const randomNum = Math.random();
-    let book = "📗";
-
-    if (randomNum > 0.7) {
-      book = "📘";
-    } else if (randomNum > 0.4) {
-      book = "📙";
-    }
-
-    return `<span for="img" aria-label="book">${book}</span>`;
+  format_date: (date) => {
+    const d = new Date(date);
+    return `${d.getMonth() + 1}/${d.getDate()}/${d.getFullYear()}`;
   },
 };
